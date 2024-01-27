@@ -13,8 +13,14 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_COOKING = 4057174442U;
+        static const AkUniqueID PLAY_MOVEMENT = 3921993629U;
         static const AkUniqueID PLAY_MUSIC = 2932040671U;
+        static const AkUniqueID PLAY_ORBIT = 3855889522U;
+        static const AkUniqueID PLAY_SPACESHIP = 3461846542U;
+        static const AkUniqueID PLAY_THROW = 1977644338U;
         static const AkUniqueID STOP_MUSIC = 2837384057U;
+        static const AkUniqueID STOP_ORBIT = 1051688448U;
     } // namespace EVENTS
 
     namespace STATES
@@ -26,14 +32,21 @@ namespace AK
             namespace STATE
             {
                 static const AkUniqueID MUSIC = 3991942870U;
+                static const AkUniqueID NONE = 748895195U;
             } // namespace STATE
         } // namespace MUSIC
 
     } // namespace STATES
 
+    namespace GAME_PARAMETERS
+    {
+        static const AkUniqueID ORBIT = 2961497387U;
+    } // namespace GAME_PARAMETERS
+
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
+        static const AkUniqueID EFFECTS_SOUNDBANK = 936105827U;
         static const AkUniqueID MUSIC_SOUNDBANK = 3589812408U;
     } // namespace BANKS
 
