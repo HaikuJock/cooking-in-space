@@ -113,6 +113,7 @@ namespace StarterAssets
         public void TetherMove(Vector3 vec)
         {
             _controller.Move(vec);
+            //_controller.rig(vec);
         }
 
         private bool IsCurrentDeviceMouse
