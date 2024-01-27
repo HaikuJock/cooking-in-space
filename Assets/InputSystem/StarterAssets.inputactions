@@ -157,6 +157,17 @@
                 },
                 {
                     "name": "",
+                    "id": "a7a32533-987c-4636-bab4-2c8678781c32",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "ed66cbff-2900-4a62-8896-696503cfcd31",
                     "path": "<Pointer>/delta",
                     "interactions": "",
