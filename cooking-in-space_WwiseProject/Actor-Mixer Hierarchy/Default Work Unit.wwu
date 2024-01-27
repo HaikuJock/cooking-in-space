@@ -4,6 +4,13 @@
 		<WorkUnit Name="Default Work Unit" ID="{07509B5C-18FC-4EBB-BDD0-C0909CF715BF}" PersistMode="Standalone">
 			<ChildrenList>
 				<Sound Name="Draft 2 song" ID="{797C8B62-E118-4DB9-A3F2-9532E0580CC3}" ShortID="918235758">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01232059-0E55-4A60-BFCC-444C712D03F3}"/>
@@ -157,6 +164,28 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="Spaceships enter exit" ID="{EEB8BF40-F736-45EA-BE1E-69E0C5A4F09B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Spacesuit Movement" ID="{2FD3B530-E2CD-4FC5-9762-461D84FF2D84}" ShortID="3694899">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01232059-0E55-4A60-BFCC-444C712D03F3}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2A29151C-105F-413B-BCD8-C62EFD6B2F13}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Spacesuit Movement" ID="{B11B2274-DC04-4B5B-A533-B51DDC5F298F}">
+							<Language>SFX</Language>
+							<AudioFile>Spacesuit Movement.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="952816046"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Spacesuit Movement" ID="{B11B2274-DC04-4B5B-A533-B51DDC5F298F}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

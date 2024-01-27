@@ -14,4 +14,5 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	722837671	cooking	E:\game jam\cooking-in-space\cooking-in-space_WwiseProject\.cache\Mac\SFX\cooking_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\cooking		1230704
 	774919921	Spaceships enter exit	E:\game jam\cooking-in-space\cooking-in-space_WwiseProject\.cache\Mac\SFX\Spaceships enter exit_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spaceships enter exit		790552
 	777058764	ufo orbit	E:\game jam\cooking-in-space\cooking-in-space_WwiseProject\.cache\Mac\SFX\ufo orbit_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\ufo orbit		7089220
+	952816046	Spacesuit Movement	E:\game jam\cooking-in-space\cooking-in-space_WwiseProject\.cache\Mac\SFX\Spacesuit Movement_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spacesuit Movement		1346044
 
