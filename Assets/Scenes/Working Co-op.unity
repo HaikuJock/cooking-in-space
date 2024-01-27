@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.010485779, g: 0.052983798, b: 0.15318781, a: 1}
+  m_IndirectSpecularColor: {r: 0.010487026, g: 0.05299066, b: 0.15318966, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4932,6 +4932,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 997ad416ec380413cad47e0c3e617b1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scoreDisplayText: {fileID: 0}
   _bunCount: 0
   _pattyCount: 0
   _cheeseCount: 0
@@ -6264,6 +6265,7 @@ MonoBehaviour:
   innerSpawnDisc: 15
   outerSpawnDisc: 30
   ingredientSpeed: 100
+  maxSpawns: 200
   ingredients:
   - {fileID: 5034526660333630027, guid: f3ed9fc58a102ca43b0a1f59b87cf751, type: 3}
   - {fileID: 620734964268345903, guid: 17d7cf0e1532e804298d8f968bf8cbce, type: 3}
