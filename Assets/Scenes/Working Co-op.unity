@@ -1713,6 +1713,10 @@ PrefabInstance:
       propertyPath: numberOfPoints
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 2086418991363877598, guid: b37a04d7063a4f942802afdc36ef9673, type: 3}
+      propertyPath: brakeLengthMultiplier
+      value: 1.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4617634413466379466, guid: b37a04d7063a4f942802afdc36ef9673, type: 3}
       propertyPath: m_Enabled
       value: 1
