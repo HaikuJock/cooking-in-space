@@ -1,18 +1,17 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using HPhysic;
 using UnityEngine;
 
 public class ConnectPlayer : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private PlayerConnectorManager _playerConnectorManager;
+    [SerializeField] private Connector _myConnector;
+    
+    private void Awake()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        _playerConnectorManager = GameObject.Find("Player Connector Manager").GetComponent<PlayerConnectorManager>();
+        _playerConnectorManager.NewConnection(_myConnector);
     }
 }
