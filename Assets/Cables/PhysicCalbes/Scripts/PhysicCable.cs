@@ -238,10 +238,17 @@ namespace HPhysic
             {
                 if (cableLength > brakeLength)
                 {
-                    if (startConnector.ConnectedTo)
+                    if (startConnector.ConnectedTo != null)
                     {
                         var player = startConnector.ConnectedTo.transform.parent.gameObject.GetComponentInParent<ThirdPersonController>();
                         var moveVector = startConnector.transform.position - endConnector.transform.position;
+
+                        player.TetherMove(moveVector * -0.01f);
+                    }
+                    if (endConnector.ConnectedTo != null)
+                    {
+                        var player = endConnector.ConnectedTo.transform.parent.gameObject.GetComponentInParent<ThirdPersonController>();
+                        var moveVector = endConnector.transform.position - startConnector.transform.position;
 
                         player.TetherMove(moveVector * -0.01f);
                     }
