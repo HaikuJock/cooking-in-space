@@ -110,10 +110,20 @@ namespace StarterAssets
 
         private bool _hasAnimator;
 
-        public void TetherMove(Vector3 vec)
+        private Vector3 tetherForce = Vector3.zero;
+
+        public void SlowForTether(Vector3 vec)
         {
-            _controller.Move(vec);
-            //_controller.rig(vec);
+            tetherForce = Vector3.Lerp(tetherForce, vec, Time.deltaTime);
+            //_controller.attachedRigidbody.AddForce(vec);
+            // _controller.Move(vec);
+        }
+
+        public void SpeedUpForTether(Vector3 vec)
+        {
+            tetherForce = Vector3.Lerp(tetherForce, vec, Time.deltaTime * 50f);
+            //_controller.attachedRigidbody.AddForce(vec);
+            // _controller.Move(vec);
         }
 
         private bool IsCurrentDeviceMouse
@@ -274,8 +284,7 @@ namespace StarterAssets
             Vector3 targetDirection = Quaternion.Euler(0.0f, _targetRotation, 0.0f) * Vector3.forward;
 
             // move the player
-            _controller.Move(targetDirection.normalized * (_speed * Time.deltaTime) +
-                             new Vector3(0.0f, _verticalVelocity, 0.0f) * Time.deltaTime);
+            _controller.Move(targetDirection.normalized * (_speed * Time.deltaTime) + tetherForce);
 
             // update animator if using character
             if (_hasAnimator)
