@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: e50abb7dd1356d4385592447f0e388c7
     GuidInternal: 
-    m_lastTime: -8584952423029189790
+    m_lastTime: -8584952289860528650
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 1c15292a5f103b41bcd8c62efd6b2f13
     GuidInternal: 
-    m_lastTime: -8584952423031978649
+    m_lastTime: -8584952289860987476
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 77112b6cf43e3d498b1ccd35f4b893eb
     GuidInternal: 
-    m_lastTime: -8584952283299706786
+    m_lastTime: -8584952220007541853
     List:
     - name: Effects_Soundbank
       guid: be11ff5b06607a44bfa789edcf92a31a
@@ -108,7 +108,7 @@ MonoBehaviour:
     ParentPath: Events\Character
     guid: fa923a5c20d31c4594cccb1dec75756e
     GuidInternal: 
-    m_lastTime: -8584952283047636144
+    m_lastTime: -8584952220007617411
     List:
     - name: Play_Movement
       guid: 02b3cc0b13b07041bd689bd40dc0a03c
@@ -138,7 +138,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 6de7a77517531f438f99b60ac20d1a0d
     GuidInternal: 
-    m_lastTime: -8584952283299527304
+    m_lastTime: -8584952220007607385
     List:
     - name: Play_Cooking
       guid: d5170e5ca5484d4591032a9198b28d43
@@ -271,7 +271,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 75514cee2fded44bbe32b851b5be5a16
     GuidInternal: 
-    m_lastTime: -8584952313902094041
+    m_lastTime: -8584952289861499051
     List:
     - name: Orbit
       guid: 2aeb4a7e6421bd4b99e4ae55a2a6bdf1
@@ -299,7 +299,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 3c03f18881b64d40a06e25ef2be6e284
     GuidInternal: 
-    m_lastTime: -8584952335564961733
+    m_lastTime: -8584952289860551162
     List:
     - name: Music
       guid: 4dc68de31a1d8a41abb902aac85ac17c
@@ -363,7 +363,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 26f2c6bd0371b349b7e9935fa2df9c35
     GuidInternal: 
-    m_lastTime: -8584952423030877442
+    m_lastTime: -8584952289860541167
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -377,10 +377,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 8e848c6251149f449646ea3541824871
     GuidInternal: 
-    m_lastTime: -8584952423029780369
+    m_lastTime: -8584952289860533705
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e000000100000001b000000da7a0500
+  ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
