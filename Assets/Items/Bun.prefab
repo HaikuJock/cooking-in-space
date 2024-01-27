@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 1699535099447883704}
   - component: {fileID: 8586389669260777795}
   - component: {fileID: 3742111524503844933}
+  - component: {fileID: 3971587541102475395}
+  - component: {fileID: 2122797975430860726}
   m_Layer: 0
   m_Name: Bun
   m_TagString: Collectable
@@ -92,6 +94,31 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 116
   m_CollisionDetection: 2
+--- !u!114 &3971587541102475395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5034526660333630027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 211ca70f70c9f4a90bf2df824f41f694, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2122797975430860726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5034526660333630027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 224663474022fde419259ad8d16f8717, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  orbitSpeed: 10
 --- !u!1 &5251772175290434574
 GameObject:
   m_ObjectHideFlags: 0

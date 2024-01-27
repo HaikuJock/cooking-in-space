@@ -10,8 +10,10 @@ public class Spawner : MonoBehaviour
     [SerializeField, Min(1f)] private float innerSpawnDisc = 4;
     [SerializeField, Min(1.1f)] private float outerSpawnDisc = 8;
     [SerializeField, Min(1f)] private float ingredientSpeed = 10;
+    [SerializeField, Min(1)] private int maxSpawns = 100;
     [SerializeField] private List<GameObject> ingredients = new List<GameObject>();
 
+    private int spawnCount = 0;
     private float spawnTimer = 0f;
 
     // Start is called before the first frame update
@@ -23,7 +25,8 @@ public class Spawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (ingredients.Count == 0) {
+        if (ingredients.Count == 0 ||
+            spawnCount >= maxSpawns) {
             return;
         }
 
@@ -42,12 +45,19 @@ public class Spawner : MonoBehaviour
             if (Physics.OverlapSphere(position, maxAxis).Length == 0) 
             {
                 var ingredientObject = Instantiate(ingredientTemplate, position, Quaternion.identity);
-                var targetAngle = angle + Random.Range(System.MathF.PI / 16f, System.MathF.PI / 8f);
-                var targetPoint = PointOnDiscAt(targetAngle, radius);
-                var toTarget = targetPoint - position;
-                var velocity = toTarget * ingredientSpeed;
+                var orbit = ingredientObject.GetComponent<Orbit>();
 
-                ingredientObject.GetComponent<Rigidbody>().AddForce(velocity);
+                if (orbit != null)
+                {
+                    orbit.orbitSpeed = Random.Range(0.75f, 1.75f) * radius;
+                }
+                ++spawnCount;
+
+                var destroyDispatcher = ingredientObject.GetComponent<OnDestroyDispatcher>();
+
+                if (destroyDispatcher != null) {
+                    destroyDispatcher.OnObjectDestroyed += (obj) => { --spawnCount; };
+                }
             }
         }
     }
