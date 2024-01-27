@@ -9,7 +9,56 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{E2674042-B2B5-244B-5424-E30A31B76413}">
+		<SoundBank Id="936105827" Type="User" Language="SFX" Hash="{3B129988-9793-AE02-226C-47B4CCEC2FF4}">
+			<ShortName>Effects_Soundbank</ShortName>
+			<Path>Effects_Soundbank.bnk</Path>
+			<Media>
+				<File Id="430476849" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Throw.wav</ShortName>
+					<CachePath>SFX/Throw_818F3B66.wem</CachePath>
+				</File>
+				<File Id="722837671" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>cooking.wav</ShortName>
+					<CachePath>SFX/cooking_818F3B66.wem</CachePath>
+				</File>
+				<File Id="774919921" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Spaceships enter exit.wav</ShortName>
+					<CachePath>SFX/Spaceships enter exit_818F3B66.wem</CachePath>
+				</File>
+				<File Id="777058764" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ufo orbit.wav</ShortName>
+					<CachePath>SFX/ufo orbit_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="4057174442" Name="Play_Cooking" DurationType="OneShot" DurationMin="6.9759636" DurationMax="6.9759636">
+					<MediaRefs>
+						<MediaRef Id="722837671"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3921993629" Name="Play_Movement" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3855889522" Name="Play_Orbit" DurationType="OneShot" DurationMin="40.187504" DurationMax="40.187504">
+					<MediaRefs>
+						<MediaRef Id="777058764"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3461846542" Name="Play_Spaceship" DurationType="OneShot" DurationMin="4.480771" DurationMax="4.480771">
+					<MediaRefs>
+						<MediaRef Id="774919921"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1977644338" Name="Play_Throw" DurationType="OneShot" DurationMin="0.7596145" DurationMax="0.7596145">
+					<MediaRefs>
+						<MediaRef Id="430476849"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1051688448" Name="Stop_Orbit" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="2961497387" Name="Orbit"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{50BCD10D-6004-4AE9-44D2-640D0C0CF870}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -21,6 +70,9 @@
 			<Busses>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
+			<GameParameters>
+				<GameParameter Id="2961497387" Name="Orbit"/>
+			</GameParameters>
 			<StateGroups>
 				<StateGroup Id="3991942870" Name="Music">
 					<States>
@@ -62,5 +114,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{85C410AA-DE9B-D6E1-F853-78C7B33B9B53}</FileHash>
+	<FileHash>{1836F1E9-DF95-D112-E10A-13853F696A83}</FileHash>
 </SoundBanksInfo>

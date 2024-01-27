@@ -1,0 +1,17 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1051688448	Stop_Orbit			\Default Work Unit\Stop_Orbit	
+	1977644338	Play_Throw			\Default Work Unit\Play_Throw	
+	3461846542	Play_Spaceship			\Default Work Unit\Play_Spaceship	
+	3855889522	Play_Orbit			\Default Work Unit\Play_Orbit	
+	3921993629	Play_Movement			\Character\Play_Movement	
+	4057174442	Play_Cooking			\Default Work Unit\Play_Cooking	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2961497387	Orbit			\Default Work Unit\Orbit	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	430476849	Throw	E:\game jam\cooking-in-space\cooking-in-space_WwiseProject\.cache\Windows\SFX\Throw_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Throw		134140
+	722837671	cooking	E:\game jam\cooking-in-space\cooking-in-space_WwiseProject\.cache\Windows\SFX\cooking_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\cooking		1230704
+	774919921	Spaceships enter exit	E:\game jam\cooking-in-space\cooking-in-space_WwiseProject\.cache\Windows\SFX\Spaceships enter exit_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spaceships enter exit		790552
+	777058764	ufo orbit	E:\game jam\cooking-in-space\cooking-in-space_WwiseProject\.cache\Windows\SFX\ufo orbit_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\ufo orbit		7089220
+

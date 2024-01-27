@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5C3A92FA-D320-451C-94CC-CB1DEC75756E}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Character" ID="{5C3A92FA-D320-451C-94CC-CB1DEC75756E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Movement" ID="{0BCCB302-B013-4170-BD68-9BD40DC0A03C}">
+					<ChildrenList>
+						<Action Name="" ID="{9B9822BD-8A58-4181-A66F-28B23C2517EA}" ShortID="982153551">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Spacesuit_Movement" ID="{F503DACF-0209-4784-B6A3-C841F76AA92B}" WorkUnitID="{0977E4E3-6194-42D7-9BFB-EED35A4C3A4C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

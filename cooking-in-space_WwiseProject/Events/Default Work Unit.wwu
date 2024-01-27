@@ -28,6 +28,50 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Spaceship" ID="{F064FBEB-56BA-425F-B934-D9C80840E208}">
+					<ChildrenList>
+						<Action Name="" ID="{CAE93183-6A48-4336-A93D-C8E3CC290FFA}" ShortID="834554440">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Spaceships enter exit" ID="{D19B8FBB-C60B-4837-BAAF-44D32F63E68E}" WorkUnitID="{07509B5C-18FC-4EBB-BDD0-C0909CF715BF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Cooking" ID="{5C0E17D5-48A5-454D-9103-2A9198B28D43}">
+					<ChildrenList>
+						<Action Name="" ID="{52FB6605-048C-4E0D-901B-2FD752129307}" ShortID="692274928">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cooking" ID="{5C435D9A-8EB9-4E4A-BB98-1A1EC9290A92}" WorkUnitID="{07509B5C-18FC-4EBB-BDD0-C0909CF715BF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Throw" ID="{C8EDD56F-EBB9-4B13-AF11-E732BA1AA768}">
+					<ChildrenList>
+						<Action Name="" ID="{1BFB47FD-37AB-47A8-A9C9-4A3DA5B27588}" ShortID="130647686">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Throw" ID="{2555DEE5-4CCB-4C82-9C0F-3BDA75F1FAA5}" WorkUnitID="{07509B5C-18FC-4EBB-BDD0-C0909CF715BF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Orbit" ID="{21E29112-E200-4AE3-AEF4-4F393C82EA91}">
+					<ChildrenList>
+						<Action Name="" ID="{84ADCDBB-42B2-46CE-A932-C5B8698EE77E}" ShortID="779593946">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ufo orbit" ID="{889C49BA-ADA4-4E4E-8515-5BD122B07368}" WorkUnitID="{07509B5C-18FC-4EBB-BDD0-C0909CF715BF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e720d419087ff8f429775024033ba08b, type: 3}
+  m_Name: 5C0E17D5-48A5-454D-9103-2A9198B28D43
+  m_EditorClassIdentifier: 
+  objectName: Play_Cooking
+  id: 4057174442
+  guid: 5C0E17D5-48A5-454D-9103-2A9198B28D43
