@@ -236,8 +236,10 @@ namespace HPhysic
 
             if (isConnected)
             {
+                Debug.Log(cableLength > brakeLength);
                 if (cableLength > brakeLength)
-                {
+                {   
+                    // player at start
                     if (startConnector.ConnectedTo != null)
                     {
                         var player = startConnector.ConnectedTo.transform.parent.gameObject.GetComponentInParent<ThirdPersonController>();
@@ -245,6 +247,7 @@ namespace HPhysic
 
                         player.TetherMove(moveVector * -0.01f);
                     }
+                    // player at end
                     if (endConnector.ConnectedTo != null)
                     {
                         var player = endConnector.ConnectedTo.transform.parent.gameObject.GetComponentInParent<ThirdPersonController>();

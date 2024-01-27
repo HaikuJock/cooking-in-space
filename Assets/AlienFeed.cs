@@ -13,7 +13,7 @@ public class AlienFeed : MonoBehaviour
             if (other.gameObject.name == order)
             {
                 Destroy(other.gameObject);
-                Kitchen.Score += Random.Range(50, 100);
+                Satisfaction.Score += Random.Range(50, 100);
                 Destroy(gameObject);
             }
         }

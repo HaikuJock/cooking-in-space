@@ -195,7 +195,7 @@ RectTransform:
   m_GameObject: {fileID: 4853963948391807156}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.3789655, y: 0.45513752, z: 0.45513752}
+  m_LocalScale: {x: 0.48170307, y: 0.5785253, z: 0.5785253}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3260781675400566925}
@@ -233,7 +233,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 6a0b10d7f1e0d834ca816ae570e9ccd4, type: 3}
+  m_Texture: {fileID: 2800000, guid: 075dbf2a6da0d9d40bb4186c600ba9c3, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -261,7 +261,7 @@ GameObject:
   - component: {fileID: 7702606606494934153}
   - component: {fileID: -7335338838630891563}
   m_Layer: 0
-  m_Name: Alien
+  m_Name: FrieAlien
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
