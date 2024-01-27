@@ -34,13 +34,13 @@ public class Kitchen : MonoBehaviour
             print(other.gameObject.name);
             if (other.gameObject.name == "Burger(Clone)")
             {
-                if (_burgerCount < 3)
+                if (_burgerCount >= 3)
                 {
                     ReLaunchItem(other.gameObject);
                 }
                 else
                 {
-                    Destroy(gameObject);
+                    Destroy(other.gameObject);
                     _burgerCount++;
                 }
             }
