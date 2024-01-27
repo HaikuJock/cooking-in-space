@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6586462634156491579}
   - component: {fileID: 8463655159838959320}
   - component: {fileID: 2054318714945767385}
+  - component: {fileID: 6008474562494327490}
   m_Layer: 0
   m_Name: Patty
   m_TagString: Collectable
@@ -118,6 +119,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   orbitSpeed: 10
+--- !u!114 &6008474562494327490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 620734964268345903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cb4de736833241debf9469e36becbaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4737547502306857237
 GameObject:
   m_ObjectHideFlags: 0
