@@ -25,6 +25,140 @@
 						<ActiveSource Name="Draft 2 song" ID="{2E84A5CB-7315-480B-A36F-D286CF30C780}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Throw" ID="{2555DEE5-4CCB-4C82-9C0F-3BDA75F1FAA5}" ShortID="98627332">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01232059-0E55-4A60-BFCC-444C712D03F3}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2A29151C-105F-413B-BCD8-C62EFD6B2F13}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Throw" ID="{7CF8A6B8-344B-4CA2-9A42-B90B0A2912DD}">
+							<Language>SFX</Language>
+							<AudioFile>Throw.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="430476849"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Throw" ID="{7CF8A6B8-344B-4CA2-9A42-B90B0A2912DD}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="ufo orbit" ID="{889C49BA-ADA4-4E4E-8515-5BD122B07368}" ShortID="815284687">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01232059-0E55-4A60-BFCC-444C712D03F3}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2A29151C-105F-413B-BCD8-C62EFD6B2F13}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ufo orbit" ID="{99508CE8-C48C-4C92-876D-793455F4FF26}">
+							<Language>SFX</Language>
+							<AudioFile>ufo orbit.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="777058764"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{4556449C-9C26-480C-9FEA-28CCAF49505C}" ShortID="733702546">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="Orbit" ID="{7E4AEB2A-2164-4BBD-99E4-AE55A2A6BDF1}" WorkUnitID="{EE4C5175-DE2F-4BD4-BE32-B851B5BE5A16}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{D0E5EE07-83C8-4DFA-B224-82E63F56E22A}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-7.37301</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>2.09104</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+					<ActiveSourceList>
+						<ActiveSource Name="ufo orbit" ID="{99508CE8-C48C-4C92-876D-793455F4FF26}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="cooking" ID="{5C435D9A-8EB9-4E4A-BB98-1A1EC9290A92}" ShortID="554882814">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01232059-0E55-4A60-BFCC-444C712D03F3}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2A29151C-105F-413B-BCD8-C62EFD6B2F13}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="cooking" ID="{D9B7A842-CC8A-43E8-8E14-43A050D2180A}">
+							<Language>SFX</Language>
+							<AudioFile>cooking.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="722837671"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="cooking" ID="{D9B7A842-CC8A-43E8-8E14-43A050D2180A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Spaceships enter exit" ID="{D19B8FBB-C60B-4837-BAAF-44D32F63E68E}" ShortID="666291194">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01232059-0E55-4A60-BFCC-444C712D03F3}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2A29151C-105F-413B-BCD8-C62EFD6B2F13}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Spaceships enter exit" ID="{EEB8BF40-F736-45EA-BE1E-69E0C5A4F09B}">
+							<Language>SFX</Language>
+							<AudioFile>Spaceships enter exit.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="774919921"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Spaceships enter exit" ID="{EEB8BF40-F736-45EA-BE1E-69E0C5A4F09B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
