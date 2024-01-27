@@ -120,11 +120,11 @@ namespace StarterAssets
         {
             get
             {
-#if ENABLE_INPUT_SYSTEM
-                return _playerInput.currentControlScheme == "KeyboardMouse";
-#else
-				return false;
-#endif
+                #if ENABLE_INPUT_SYSTEM
+                                return _playerInput.currentControlScheme == "KeyboardMouse";
+                #else
+				                return false;
+                #endif
             }
         }
 

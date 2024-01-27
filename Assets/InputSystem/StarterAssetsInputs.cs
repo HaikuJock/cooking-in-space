@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 #if ENABLE_INPUT_SYSTEM
 using UnityEngine.InputSystem;
@@ -19,6 +20,13 @@ namespace StarterAssets
 		[Header("Mouse Cursor Settings")]
 		public bool cursorLocked = true;
 		public bool cursorInputForLook = true;
+
+		private void Update()
+		{
+			print(move);
+			print(look);
+			print(analogMovement);
+		}
 
 #if ENABLE_INPUT_SYSTEM
 		public void OnMove(InputValue value)
