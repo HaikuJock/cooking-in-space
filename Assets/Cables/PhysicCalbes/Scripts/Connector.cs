@@ -1,6 +1,8 @@
+using System;
 using System.Collections;
 using UnityEngine;
 using NaughtyAttributes;
+using Random = UnityEngine.Random;
 
 namespace HPhysic
 {
@@ -22,6 +24,7 @@ namespace HPhysic
         [SerializeField] private bool allowConnectDifrentCollor = false;
 
         [field: SerializeField] public Connector ConnectedTo { get; private set; }
+        private bool _isConnected = false;
 
 
         [Header("Object to set")]
@@ -51,9 +54,13 @@ namespace HPhysic
         private void Start()
         {
             UpdateConnectorColor();
+        }
 
-            if (ConnectedTo != null)
+        private void Update()
+        {
+            if (ConnectedTo != null && !_isConnected)
             {
+                _isConnected = true;
                 Connector t = ConnectedTo;
                 ConnectedTo = null;
                 Connect(t);
