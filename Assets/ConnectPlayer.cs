@@ -14,4 +14,11 @@ public class ConnectPlayer : MonoBehaviour
         _playerConnectorManager = GameObject.Find("Player Connector Manager").GetComponent<PlayerConnectorManager>();
         _playerConnectorManager.NewConnection(_myConnector);
     }
+
+    private void Start()
+    {
+        var playerRigidBody = gameObject.GetComponent<CharacterController>().attachedRigidbody;
+
+        playerRigidBody.constraints = RigidbodyConstraints.FreezePositionY;
+    }
 }
