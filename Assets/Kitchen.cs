@@ -2,14 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Security.Cryptography;
 using TMPro;
+using Unity.Mathematics;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class Kitchen : MonoBehaviour
 {
-    private int _bunCount;
-    private int _burgerCount;
-    private int _cheeseCount;
-
+    [SerializeField] private int _bunCount;
+    [SerializeField] private int _pattyCount;
+    [SerializeField] private int _cheeseCount;
+    public GameObject burgerPrefab;
+    
     [SerializeField] private float _relaunchForceMin, _relaunchForceMax;
     [SerializeField] private TMP_Text inventoryText;
     
@@ -18,42 +21,72 @@ public class Kitchen : MonoBehaviour
     void Start()
     {
         _bunCount = 0;
-        _burgerCount = 0;
+        _pattyCount = 0;
         _cheeseCount = 0;
     }
 
     void Update()
     {
-        inventoryText.text = "Buns: " + _bunCount + "\nBurgers: " + _burgerCount + "\nCheese: " + _cheeseCount;
+        inventoryText.text = "Buns: " + _bunCount + "\nPattys: " + _pattyCount + "\nCheese: " + _cheeseCount;
+        if (_pattyCount > 0 && _bunCount > 0 && _cheeseCount > 0)
+        {
+            Instantiate(burgerPrefab, new Vector3(0, 1.4f, 0), quaternion.identity);
+            ReLaunchItem(burgerPrefab);
+            _pattyCount--;
+            _bunCount--;
+            _cheeseCount--;
+        }
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Collectable"))
         {
-            print(other.gameObject.name);
-            if (other.gameObject.name == "Burger(Clone)")
+            if (other.gameObject.name == "Patty(Clone)")
             {
-                if (_burgerCount >= 3)
+                if (_pattyCount >= 3)
                 {
                     ReLaunchItem(other.gameObject);
                 }
                 else
                 {
                     Destroy(other.gameObject);
-                    _burgerCount++;
+                    _pattyCount++;
+                }
+            }
+            else if (other.gameObject.name == "Bun(Clone)")
+            {
+                if (_bunCount >= 3)
+                {
+                    ReLaunchItem(other.gameObject);
+                }
+                else
+                {
+                    Destroy(other.gameObject);
+                    _bunCount++;
+                }
+            }
+            else if (other.gameObject.name == "Cheese(Clone)")
+            {
+                if (_cheeseCount >= 3)
+                {
+                    ReLaunchItem(other.gameObject);
+                }
+                else
+                {
+                    Destroy(other.gameObject);
+                    _cheeseCount++;
                 }
             }
             
         }
     }
-
+ 
     private void ReLaunchItem(GameObject obj)
     {
-        var randomDirection = Random.rotation;
         var objRB = obj.GetComponent<Rigidbody>();
-
-        obj.transform.rotation = randomDirection;
-        objRB.AddForce( transform.forward * Random.Range(_relaunchForceMin, _relaunchForceMax));
+        var pos = new Vector3(0, 1.4f, 0);
+        obj.transform.position = pos;
+        objRB.AddRelativeForce(Random.onUnitSphere * Random.Range(_relaunchForceMin, _relaunchForceMax));
     }
 }
