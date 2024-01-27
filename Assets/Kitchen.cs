@@ -93,6 +93,11 @@ public class Kitchen : MonoBehaviour
         var objRB = obj.GetComponent<Rigidbody>();
         var pos = new Vector3(0, 1.4f, 0);
         obj.transform.position = pos;
-        objRB.AddRelativeForce(Random.onUnitSphere * Random.Range(_relaunchForceMin, _relaunchForceMax));
+        var force = Random.onUnitSphere * Random.Range(_relaunchForceMin, _relaunchForceMax);
+        force.y = 0f;
+
+        // Debug.LogWarning("force " + force);
+
+        objRB.AddForce(force);
     }
 }
