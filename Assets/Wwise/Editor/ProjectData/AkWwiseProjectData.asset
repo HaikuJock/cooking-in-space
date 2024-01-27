@@ -156,7 +156,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 3c03f18881b64d40a06e25ef2be6e284
     GuidInternal: 
-    m_lastTime: -8584952395778439703
+    m_lastTime: -8584952335564961733
     List:
     - name: Music
       guid: 4dc68de31a1d8a41abb902aac85ac17c
@@ -189,6 +189,22 @@ MonoBehaviour:
         - ElementName: Music
           ObjectType: 8
           guid: 4f8e245580c35e4da8c3b729db269ce2
+      - name: None
+        guid: fdf7c8c4856c874ba87e68afa50cccc4
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 3c03f18881b64d40a06e25ef2be6e284
+        - ElementName: Music
+          ObjectType: 9
+          guid: 4dc68de31a1d8a41abb902aac85ac17c
+        - ElementName: None
+          ObjectType: 8
+          guid: fdf7c8c4856c874ba87e68afa50cccc4
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
@@ -221,7 +237,7 @@ MonoBehaviour:
     m_lastTime: -8584952423029780369
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0600000008000000090000000a0000000b0000000c0000000e00000010000000da7a0500
+  ExpandedWaapiItemIds: 060000000700000008000000090000000a0000000b0000000c0000000d0000000e00000010000000da7a0500
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

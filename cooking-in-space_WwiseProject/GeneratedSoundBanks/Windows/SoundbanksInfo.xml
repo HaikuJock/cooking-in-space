@@ -24,12 +24,13 @@
 			<StateGroups>
 				<StateGroup Id="3991942870" Name="Music">
 					<States>
+						<State Id="748895195" Name="None"/>
 						<State Id="3991942870" Name="Music"/>
 					</States>
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3589812408" Type="User" Language="SFX" Hash="{BD973F6A-8A5F-896D-7B50-6069D715B395}">
+		<SoundBank Id="3589812408" Type="User" Language="SFX" Hash="{77BA4C82-81CC-96C2-9F11-9960477D26ED}">
 			<ShortName>Music_Soundbank</ShortName>
 			<Path>Music_Soundbank.bnk</Path>
 			<Media>
@@ -54,11 +55,12 @@
 			<StateGroups>
 				<StateGroup Id="3991942870" Name="Music">
 					<States>
+						<State Id="748895195" Name="None"/>
 						<State Id="3991942870" Name="Music"/>
 					</States>
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{035B9CEA-5AB0-0E0D-64FC-E3EC57B2CCE9}</FileHash>
+	<FileHash>{85C410AA-DE9B-D6E1-F853-78C7B33B9B53}</FileHash>
 </SoundBanksInfo>

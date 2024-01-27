@@ -26,6 +26,7 @@ namespace AK
             namespace STATE
             {
                 static const AkUniqueID MUSIC = 3991942870U;
+                static const AkUniqueID NONE = 748895195U;
             } // namespace STATE
         } // namespace MUSIC
 

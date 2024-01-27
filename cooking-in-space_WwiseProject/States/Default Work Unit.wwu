@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<StateGroup Name="Music" ID="{E38DC64D-1D1A-418A-ABB9-02AAC85AC17C}">
 					<ChildrenList>
+						<State Name="None" ID="{C4C8F7FD-6C85-4B87-A87E-68AFA50CCCC4}"/>
 						<State Name="Music" ID="{55248E4F-C380-4D5E-A8C3-B729DB269CE2}"/>
 					</ChildrenList>
 				</StateGroup>
