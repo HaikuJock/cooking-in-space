@@ -239,8 +239,8 @@ namespace HPhysic
                     timeToBrake -= Time.deltaTime;
                     if (timeToBrake < 0f)
                     {
-                        startConnector.Disconnect();
-                        endConnector.Disconnect();
+                        // startConnector.Disconnect();
+                        // endConnector.Disconnect();
                         timeToBrake = minBrakeTime;
                     }
                 }
