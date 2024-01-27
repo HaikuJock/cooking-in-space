@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="936105827" Type="User" Language="SFX" Hash="{3B129988-9793-AE02-226C-47B4CCEC2FF4}">
+		<SoundBank Id="936105827" Type="User" Language="SFX" Hash="{54874FB3-CB94-0B7A-47EF-10D64EAAE0F7}">
 			<ShortName>Effects_Soundbank</ShortName>
 			<Path>Effects_Soundbank.bnk</Path>
 			<Media>
@@ -29,6 +29,10 @@
 					<ShortName>ufo orbit.wav</ShortName>
 					<CachePath>SFX/ufo orbit_818F3B66.wem</CachePath>
 				</File>
+				<File Id="952816046" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Spacesuit Movement.wav</ShortName>
+					<CachePath>SFX/Spacesuit Movement_818F3B66.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
 				<Event Id="4057174442" Name="Play_Cooking" DurationType="OneShot" DurationMin="6.9759636" DurationMax="6.9759636">
@@ -36,7 +40,11 @@
 						<MediaRef Id="722837671"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3921993629" Name="Play_Movement" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3921993629" Name="Play_Movement" DurationType="OneShot" DurationMin="7.6298184" DurationMax="7.6298184">
+					<MediaRefs>
+						<MediaRef Id="952816046"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3855889522" Name="Play_Orbit" DurationType="OneShot" DurationMin="40.187504" DurationMax="40.187504">
 					<MediaRefs>
 						<MediaRef Id="777058764"/>
@@ -114,5 +122,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{6F565009-5304-72F1-0F2D-74B9349FC2E0}</FileHash>
+	<FileHash>{56F1642C-42CA-E82F-7FE4-5E744CB026EE}</FileHash>
 </SoundBanksInfo>
