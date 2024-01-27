@@ -72,6 +72,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Stop_Orbit" ID="{4ED3A06E-E894-4E50-A4E5-233D1688F019}">
+					<ChildrenList>
+						<Action Name="" ID="{1FEE0B5C-EC59-4DF7-A135-D3602DC6D986}" ShortID="584271696">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ufo orbit" ID="{889C49BA-ADA4-4E4E-8515-5BD122B07368}" WorkUnitID="{07509B5C-18FC-4EBB-BDD0-C0909CF715BF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

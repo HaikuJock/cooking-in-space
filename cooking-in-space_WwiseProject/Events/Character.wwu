@@ -8,7 +8,7 @@
 						<Action Name="" ID="{9B9822BD-8A58-4181-A66F-28B23C2517EA}" ShortID="982153551">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Spacesuit_Movement" ID="{F503DACF-0209-4784-B6A3-C841F76AA92B}" WorkUnitID="{0977E4E3-6194-42D7-9BFB-EED35A4C3A4C}"/>
+									<ObjectRef Name="Spacesuit Movement" ID="{2FD3B530-E2CD-4FC5-9762-461D84FF2D84}" WorkUnitID="{07509B5C-18FC-4EBB-BDD0-C0909CF715BF}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
