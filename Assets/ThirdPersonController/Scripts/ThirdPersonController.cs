@@ -110,6 +110,11 @@ namespace StarterAssets
 
         private bool _hasAnimator;
 
+        public void TetherMove(Vector3 vec)
+        {
+            _controller.Move(vec);
+        }
+
         private bool IsCurrentDeviceMouse
         {
             get

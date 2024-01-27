@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using NaughtyAttributes;
+using StarterAssets;
 
 namespace HPhysic
 {
@@ -13,10 +14,10 @@ namespace HPhysic
 
         [Header("Bahaviour")]
         [SerializeField, Min(1f)] private float springForce = 200;
-        [SerializeField, Min(1f)] private float brakeLengthMultiplier = 2f;
+        [SerializeField, Min(1f)] private float brakeLengthMultiplier = 1.1f;
         [SerializeField, Min(0.1f)] private float minBrakeTime = 1f;
         private float brakeLength;
-        private float timeToBrake = 1f;
+        private float tetherLength;
 
         [Header("Object to set")]
         [SerializeField, Required] private GameObject start;
@@ -170,7 +171,8 @@ namespace HPhysic
             startConnector = start.GetComponent<Connector>();
             endConnector = end.GetComponent<Connector>();
 
-            brakeLength = space * numberOfPoints * brakeLengthMultiplier + 2f;
+            tetherLength = space * numberOfPoints;
+            brakeLength = tetherLength * brakeLengthMultiplier + 2f;
 
             points = new List<Transform>();
             connectors = new List<Transform>();
@@ -236,17 +238,13 @@ namespace HPhysic
             {
                 if (cableLength > brakeLength)
                 {
-                    timeToBrake -= Time.deltaTime;
-                    if (timeToBrake < 0f)
+                    if (startConnector.ConnectedTo)
                     {
-                        // startConnector.Disconnect();
-                        // endConnector.Disconnect();
-                        timeToBrake = minBrakeTime;
+                        var player = startConnector.ConnectedTo.transform.parent.gameObject.GetComponentInParent<ThirdPersonController>();
+                        var moveVector = startConnector.transform.position - endConnector.transform.position;
+
+                        player.TetherMove(moveVector * -0.01f);
                     }
-                }
-                else
-                {
-                    timeToBrake = minBrakeTime;
                 }
             }
         }
