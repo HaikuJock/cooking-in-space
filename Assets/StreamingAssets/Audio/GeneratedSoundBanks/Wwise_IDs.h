@@ -13,6 +13,8 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID CROWD_HAPPY = 2964108783U;
+        static const AkUniqueID CROWD_MAD = 14625635U;
         static const AkUniqueID PLAY_COOKING = 4057174442U;
         static const AkUniqueID PLAY_MOVEMENT = 3921993629U;
         static const AkUniqueID PLAY_MUSIC = 2932040671U;

@@ -16,6 +16,8 @@
 						<ObjectRef Name="Play_Movement" ID="{0BCCB302-B013-4170-BD68-9BD40DC0A03C}" WorkUnitID="{5C3A92FA-D320-451C-94CC-CB1DEC75756E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Spaceship" ID="{F064FBEB-56BA-425F-B934-D9C80840E208}" WorkUnitID="{75A7E76D-5317-431F-8F99-B60AC20D1A0D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Cooking" ID="{5C0E17D5-48A5-454D-9103-2A9198B28D43}" WorkUnitID="{75A7E76D-5317-431F-8F99-B60AC20D1A0D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Crowd_Happy" ID="{CA23532C-5F99-4818-B537-C6F30CFFCBC2}" WorkUnitID="{9E87CCA8-13D5-4E26-B81E-0D0DE2C59340}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Crowd_Mad" ID="{A09BF80A-915E-491C-B91A-87FC493EA8D5}" WorkUnitID="{9E87CCA8-13D5-4E26-B81E-0D0DE2C59340}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Orbit" ID="{21E29112-E200-4AE3-AEF4-4F393C82EA91}" WorkUnitID="{75A7E76D-5317-431F-8F99-B60AC20D1A0D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Throw" ID="{C8EDD56F-EBB9-4B13-AF11-E732BA1AA768}" WorkUnitID="{75A7E76D-5317-431F-8F99-B60AC20D1A0D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Orbit" ID="{4ED3A06E-E894-4E50-A4E5-233D1688F019}" WorkUnitID="{75A7E76D-5317-431F-8F99-B60AC20D1A0D}" Origin="Manual" Filter="7"/>

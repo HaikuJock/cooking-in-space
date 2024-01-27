@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 77112b6cf43e3d498b1ccd35f4b893eb
     GuidInternal: 
-    m_lastTime: -8584952283299706786
+    m_lastTime: -8584952208165343294
     List:
     - name: Effects_Soundbank
       guid: be11ff5b06607a44bfa789edcf92a31a
@@ -127,6 +127,53 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 7.6298184
       minDuration: 7.6298184
+  - PhysicalPath: Events\Customers.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Customers
+      ObjectType: 12
+      guid: a8cc879ed513264eb81e0d0de2c59340
+    ParentPath: Events\Customers
+    guid: a8cc879ed513264eb81e0d0de2c59340
+    GuidInternal: 
+    m_lastTime: -8584952208165189832
+    List:
+    - name: Crowd_Happy
+      guid: 2c5323ca995f1848b537c6f30cffcbc2
+      id: 2964108783
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Customers
+        ObjectType: 12
+        guid: a8cc879ed513264eb81e0d0de2c59340
+      - ElementName: Crowd_Happy
+        ObjectType: 3
+        guid: 2c5323ca995f1848b537c6f30cffcbc2
+      Path: Events\Customers\Crowd_Happy
+      maxAttenuation: 0
+      maxDuration: 6.072729
+      minDuration: 1.038322
+    - name: Crowd_Mad
+      guid: 0af89ba05e911c49b91a87fc493ea8d5
+      id: 14625635
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Customers
+        ObjectType: 12
+        guid: a8cc879ed513264eb81e0d0de2c59340
+      - ElementName: Crowd_Mad
+        ObjectType: 3
+        guid: 0af89ba05e911c49b91a87fc493ea8d5
+      Path: Events\Customers\Crowd_Mad
+      maxAttenuation: 0
+      maxDuration: 5.5693336
+      minDuration: 5.5693336
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Events
@@ -380,7 +427,7 @@ MonoBehaviour:
     m_lastTime: -8584952423029780369
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e000000100000001b000000da7a0500
+  ExpandedWaapiItemIds: 05000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e000000100000001b000000e8000000eb000000da7a0500
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

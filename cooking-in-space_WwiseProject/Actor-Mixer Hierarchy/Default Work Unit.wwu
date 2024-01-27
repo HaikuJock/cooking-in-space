@@ -209,6 +209,140 @@
 						<ActiveSource Name="Spacesuit Movement" ID="{B11B2274-DC04-4B5B-A533-B51DDC5F298F}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<SwitchContainer Name="Customers" ID="{71FB4A53-78AF-42F3-93D2-2C33C114077F}" ShortID="221931952">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01232059-0E55-4A60-BFCC-444C712D03F3}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2A29151C-105F-413B-BCD8-C62EFD6B2F13}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Good" ID="{1FB77E30-56A6-45CE-A0AC-78BA28CBF23F}" ShortID="360897933">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01232059-0E55-4A60-BFCC-444C712D03F3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2A29151C-105F-413B-BCD8-C62EFD6B2F13}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="416843__tonsil5__shouting-yeah" ID="{0DF1342B-91FA-40EB-A897-4AD7DAE81796}" ShortID="917010255">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01232059-0E55-4A60-BFCC-444C712D03F3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2A29151C-105F-413B-BCD8-C62EFD6B2F13}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="416843__tonsil5__shouting-yeah" ID="{8DDFFDA5-A6C7-476C-A27A-31839F01A174}">
+											<Language>SFX</Language>
+											<AudioFile>416843__tonsil5__shouting-yeah.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="162732789"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="416843__tonsil5__shouting-yeah" ID="{8DDFFDA5-A6C7-476C-A27A-31839F01A174}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="474151__yukikonichiwa__oh-yeah_cantonese-man" ID="{005058E8-26CA-46CD-BD4D-C0A7A6283263}" ShortID="688145263">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01232059-0E55-4A60-BFCC-444C712D03F3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2A29151C-105F-413B-BCD8-C62EFD6B2F13}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="474151__yukikonichiwa__oh-yeah_cantonese-man" ID="{2613493C-433D-4471-AF3B-308B59526A01}">
+											<Language>SFX</Language>
+											<AudioFile>474151__yukikonichiwa__oh-yeah_cantonese-man.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="157878507"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="474151__yukikonichiwa__oh-yeah_cantonese-man" ID="{2613493C-433D-4471-AF3B-308B59526A01}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="588593__gimp_revival__oh-yeah" ID="{D01E6A6E-3FDB-4143-9E2E-95DDAA9E17BF}" ShortID="924677467">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01232059-0E55-4A60-BFCC-444C712D03F3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2A29151C-105F-413B-BCD8-C62EFD6B2F13}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="588593__gimp_revival__oh-yeah" ID="{1B664D92-F087-4F24-8B8F-BFC25127B861}">
+											<Language>SFX</Language>
+											<AudioFile>588593__gimp_revival__oh-yeah.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="97053218"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="588593__gimp_revival__oh-yeah" ID="{1B664D92-F087-4F24-8B8F-BFC25127B861}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Bad" ID="{BB02C84D-C0DD-437E-A7AB-4000E3987C92}" ShortID="871658985">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01232059-0E55-4A60-BFCC-444C712D03F3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2A29151C-105F-413B-BCD8-C62EFD6B2F13}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="336997__timkahn__boo-01" ID="{D1BF5281-0DB9-463A-83A4-78B018DCD21B}" ShortID="777000734">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01232059-0E55-4A60-BFCC-444C712D03F3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2A29151C-105F-413B-BCD8-C62EFD6B2F13}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="336997__timkahn__boo-01" ID="{8FBF5273-F5BA-4F9B-A51D-CB266B89862A}">
+											<Language>SFX</Language>
+											<AudioFile>336997__timkahn__boo-01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1024751014"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="336997__timkahn__boo-01" ID="{8FBF5273-F5BA-4F9B-A51D-CB266B89862A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="Good" ID="{1FB77E30-56A6-45CE-A0AC-78BA28CBF23F}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Bad" ID="{BB02C84D-C0DD-437E-A7AB-4000E3987C92}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+					</GroupingInfo>
+				</SwitchContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
