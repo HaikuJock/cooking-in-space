@@ -1,17 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Net.Mime;
-using System.Security.Cryptography;
 using TMPro;
 using Unity.Mathematics;
 using UnityEngine;
-using UnityEngine.SocialPlatforms.Impl;
 using Random = UnityEngine.Random;
 
 public class Kitchen : MonoBehaviour
 {
-    public static int Score;
-    [SerializeField] private TMP_Text scoreDisplayText;
+
     [SerializeField] private int _bunCount;
     [SerializeField] private int _pattyCount;
     [SerializeField] private int _cheeseCount;
@@ -32,7 +26,6 @@ public class Kitchen : MonoBehaviour
     void Update()
     {
         inventoryText.text = "Buns: " + _bunCount + "\nPattys: " + _pattyCount + "\nCheese: " + _cheeseCount;
-        scoreDisplayText.text = "Score: " + Score;
         
         if (_pattyCount > 0 && _bunCount > 0 && _cheeseCount > 0)
         {
