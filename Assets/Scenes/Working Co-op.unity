@@ -10868,6 +10868,14 @@ MonoBehaviour:
   secondConnector: {fileID: 1037076781}
   thirdConnector: {fileID: 1625523837}
   fourthConnector: {fileID: 1889542615}
+  playerOneMaterial: {fileID: 2100000, guid: 3093b163d44635e4f9f7f480367abdc8, type: 2}
+  playerTwoMaterial: {fileID: 2100000, guid: 8acaba21c55f61c49abe0f5f87809080, type: 2}
+  playerThreeMaterial: {fileID: 2100000, guid: 8e8081d614e3112488e7584867c84ac6, type: 2}
+  playerFourMaterial: {fileID: 2100000, guid: 9db80848887dd17428a1199186f22174, type: 2}
+  ringOne: {fileID: 2100000, guid: 4f03b9b04e240244c8abee6c8944bb1a, type: 2}
+  ringTwo: {fileID: 2100000, guid: 9d16c96c574b3484daf9d964f7bd8f83, type: 2}
+  ringThree: {fileID: 2100000, guid: 04556e4998483e14199cb4904a40faa3, type: 2}
+  ringFour: {fileID: 2100000, guid: e4e093de349f0c3439e69661f208ecb4, type: 2}
 --- !u!4 &1825240290
 Transform:
   m_ObjectHideFlags: 0
