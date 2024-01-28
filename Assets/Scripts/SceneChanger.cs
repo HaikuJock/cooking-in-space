@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,15 +11,21 @@ public class SceneChanger : MonoBehaviour
     [SerializeField] Button mainMenuButton, helpButton, creditsButton, playButton, exitButton;
 
     // start function
-    public void Start()
+    private void Start()
     {
-        mainMenuButton.onClick.AddListener(MainMenu);
-        helpButton.onClick.AddListener(Help);
+        mainMenuButton.onClick.AddListener(() => MainMenu());
+        Debug.Log("Configured main menu button");
+        helpButton.onClick.AddListener(() => Help());
+        Debug.Log("Configured help button");
         creditsButton.onClick.AddListener(Credits);
-        playButton.onClick.AddListener(LevelOne);
+        Debug.Log("Configured credits button");
+        playButton.onClick.AddListener(Play);
+        Debug.Log("Configured play button");
         exitButton.onClick.AddListener(Quit);
-    }
+        Debug.Log("Configured exit button");
 
+        Debug.Log("End of start function!");
+    }
 
     // other functions
     public void MainMenu()
@@ -35,24 +42,12 @@ public class SceneChanger : MonoBehaviour
     {
         SceneManager.LoadScene(2);
     }
-    public void Clear()
-    {
-        SceneManager.LoadScene(3);
 
-    }
-
-    public void Fail()
-    {
-        SceneManager.LoadScene(4);
-
-    }
-
-    public void LevelOne()
+    public void Play()
     {
         SceneManager.LoadScene(5);
 
     }
-    
     public void Quit()
     {
         Application.Quit();
