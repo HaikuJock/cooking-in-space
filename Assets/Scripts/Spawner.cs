@@ -5,7 +5,7 @@ using UnityEngine;
 public class Spawner : MonoBehaviour
 {
     [Header("Configuration")]
-    [SerializeField, Min(0.1f)] private float spawnsPerSecond = 0.1f;
+    [SerializeField, Min(0.05f)] private float spawnsPerSecond = 0.1f;
     [SerializeField, Min(1f)] private float innerSpawnDisc = 4;
     [SerializeField, Min(1.1f)] private float outerSpawnDisc = 8;
     [SerializeField, Min(1f)] private float ingredientSpeed = 10;

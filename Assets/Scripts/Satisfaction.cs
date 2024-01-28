@@ -19,7 +19,7 @@ public class Satisfaction : MonoBehaviour
         satisfactionDisplay.maxValue = maxSatisfaction;
         _canReduce = true;
     }
-
+    
     private void Update()
     {
         satisfactionDisplay.value = Score;
