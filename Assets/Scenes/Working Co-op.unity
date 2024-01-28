@@ -8032,6 +8032,11 @@ Transform:
   - {fileID: 2129220390}
   m_Father: {fileID: 1730063607}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1261726560 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1301010116818589145, guid: b37a04d7063a4f942802afdc36ef9673, type: 3}
+  m_PrefabInstance: {fileID: 793090600}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1266991126
 GameObject:
   m_ObjectHideFlags: 0
@@ -10932,7 +10937,7 @@ MonoBehaviour:
   ringTwo: {fileID: 2100000, guid: 9d16c96c574b3484daf9d964f7bd8f83, type: 2}
   ringThree: {fileID: 2100000, guid: 04556e4998483e14199cb4904a40faa3, type: 2}
   ringFour: {fileID: 2100000, guid: e4e093de349f0c3439e69661f208ecb4, type: 2}
-  secondCable: {fileID: 0}
+  secondCable: {fileID: 1261726560}
 --- !u!4 &1825240290
 Transform:
   m_ObjectHideFlags: 0
