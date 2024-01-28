@@ -243,7 +243,7 @@ namespace HPhysic
                     // player at start
                     if (startConnector.ConnectedTo != null)
                     {
-                        var player = startConnector.ConnectedTo.transform.parent.gameObject.GetComponentInParent<ThirdPersonController>();
+                        var player = startConnector.ConnectedTo.transform.parent.gameObject.GetComponentInParent<PlayerMove>();
                         var moveVector = startConnector.transform.position - point0.transform.position;
 
                         player.SlowForTether(moveVector * -0.005f * brakePower);
@@ -251,7 +251,7 @@ namespace HPhysic
                     // player at end
                     if (endConnector.ConnectedTo != null)
                     {
-                        var player = endConnector.ConnectedTo.transform.parent.gameObject.GetComponentInParent<ThirdPersonController>();
+                        var player = endConnector.ConnectedTo.transform.parent.gameObject.GetComponentInParent<PlayerMove>();
                         var moveVector = lastPoint.transform.position - endConnector.transform.position;
 
                         player.SlowForTether(moveVector * -0.005f * brakePower);
@@ -262,14 +262,14 @@ namespace HPhysic
                                         // player at start
                     if (startConnector.ConnectedTo != null)
                     {
-                        var player = startConnector.ConnectedTo.transform.parent.gameObject.GetComponentInParent<ThirdPersonController>();
+                        var player = startConnector.ConnectedTo.transform.parent.gameObject.GetComponentInParent<PlayerMove>();
 
                         player.SpeedUpForTether(Vector3.zero);
                     }
                     // player at end
                     if (endConnector.ConnectedTo != null)
                     {
-                        var player = endConnector.ConnectedTo.transform.parent.gameObject.GetComponentInParent<ThirdPersonController>();
+                        var player = endConnector.ConnectedTo.transform.parent.gameObject.GetComponentInParent<PlayerMove>();
 
                         player.SpeedUpForTether(Vector3.zero);
                     }
