@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9BC3BEDB-E820-4302-8CE0-6876A46CEA4B}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Win" ID="{9BC3BEDB-E820-4302-8CE0-6876A46CEA4B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Horn" ID="{5977E81C-A9BF-43CC-9ACC-8E285ECDFD4C}">
+					<ChildrenList>
+						<Action Name="" ID="{921441D3-7A1C-40F1-BF1C-86EDF3EDD582}" ShortID="934811527">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="484267__inspectorj__party-pack-horn-coil-01-long-01" ID="{C66FE155-7A59-4A4C-A9FC-9C6C6ADA971C}" WorkUnitID="{07509B5C-18FC-4EBB-BDD0-C0909CF715BF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
