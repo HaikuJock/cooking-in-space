@@ -5190,7 +5190,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 997ad416ec380413cad47e0c3e617b1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreDisplayText: {fileID: 2026567790}
   _bunCount: 0
   _pattyCount: 0
   _cheeseCount: 0
@@ -5713,6 +5712,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firstConnector: {fileID: 1297234821}
   secondConnector: {fileID: 1037076781}
+  thirdConnector: {fileID: 0}
+  fourthConnector: {fileID: 0}
+  playerOneMaterial: {fileID: 0}
+  playerTwoMaterial: {fileID: 0}
+  playerThreeMaterial: {fileID: 0}
+  playerFourMaterial: {fileID: 0}
+  ringOne: {fileID: 0}
+  ringTwo: {fileID: 0}
+  ringThree: {fileID: 0}
+  ringFour: {fileID: 0}
+  secondCable: {fileID: 0}
 --- !u!4 &1825240290
 Transform:
   m_ObjectHideFlags: 0
@@ -6865,7 +6875,7 @@ GameObject:
   - component: {fileID: 2110783810}
   - component: {fileID: 2110783809}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Movement
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
