@@ -14,6 +14,7 @@ public class AlienFeed : MonoBehaviour
             {
                 Destroy(other.gameObject);
                 Satisfaction.Score += Random.Range(50, 100);
+                GameObject.Find("AlienYay").GetComponent<AlienHappy>().MakeAlienHappy();
                 Destroy(gameObject);
             }
         }

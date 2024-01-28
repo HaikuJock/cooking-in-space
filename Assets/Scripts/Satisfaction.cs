@@ -19,7 +19,7 @@ public class Satisfaction : MonoBehaviour
         satisfactionDisplay.maxValue = maxSatisfaction;
         _canReduce = true;
     }
-
+    
     private void Update()
     {
         satisfactionDisplay.value = Score;
@@ -28,6 +28,11 @@ public class Satisfaction : MonoBehaviour
         if (Score >= maxSatisfaction)
         {
             SceneManager.LoadScene("GameClear");
+        }
+
+        if (Score <= 0)
+        {
+            SceneManager.LoadScene("GameFail");
         }
     }
 
