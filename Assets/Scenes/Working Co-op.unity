@@ -1420,6 +1420,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 187438981}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &228588380 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1301010116818589145, guid: b37a04d7063a4f942802afdc36ef9673, type: 3}
+  m_PrefabInstance: {fileID: 463740449}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &247360776
 GameObject:
   m_ObjectHideFlags: 0
@@ -8545,7 +8550,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0fc7fd770f17c34bbf89004aff4fad3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  alienController: {fileID: 0}
+  alienController: {fileID: 1430585647}
   alienShowTime: 0.5
 --- !u!95 &1430585647
 Animator:
@@ -11168,6 +11173,7 @@ MonoBehaviour:
   ringTwo: {fileID: 2100000, guid: 9d16c96c574b3484daf9d964f7bd8f83, type: 2}
   ringThree: {fileID: 2100000, guid: 04556e4998483e14199cb4904a40faa3, type: 2}
   ringFour: {fileID: 2100000, guid: e4e093de349f0c3439e69661f208ecb4, type: 2}
+  firstCable: {fileID: 228588380}
   secondCable: {fileID: 1261726560}
 --- !u!4 &1825240290
 Transform:
