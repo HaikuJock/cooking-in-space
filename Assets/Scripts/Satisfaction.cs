@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Satisfaction : MonoBehaviour
@@ -24,6 +25,10 @@ public class Satisfaction : MonoBehaviour
         satisfactionDisplay.value = Score;
         if (_canReduce)
             StartCoroutine(ReduceSatisfaction());
+        if (Score >= maxSatisfaction)
+        {
+            SceneManager.LoadScene("GameClear");
+        }
     }
 
     private IEnumerator ReduceSatisfaction()

@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<Sound Name="Draft 2 song" ID="{797C8B62-E118-4DB9-A3F2-9532E0580CC3}" ShortID="918235758">
 					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-8</Value>
@@ -21,10 +22,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="Draft 2 song" ID="{2E84A5CB-7315-480B-A36F-D286CF30C780}">
+							<PropertyList>
+								<Property Name="LoopEnd" Type="Real64" Value="96.94573"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>Draft 2 song.wav</AudioFile>
 							<MediaIDList>
-								<MediaID ID="176306127"/>
+								<MediaID ID="507454942"/>
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
@@ -343,6 +347,33 @@
 						</GroupingBehaviorList>
 					</GroupingInfo>
 				</SwitchContainer>
+				<Sound Name="484267__inspectorj__party-pack-horn-coil-01-long-01" ID="{C66FE155-7A59-4A4C-A9FC-9C6C6ADA971C}" ShortID="466814476">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01232059-0E55-4A60-BFCC-444C712D03F3}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2A29151C-105F-413B-BCD8-C62EFD6B2F13}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="484267__inspectorj__party-pack-horn-coil-01-long-01" ID="{C75A2991-47E2-4BC7-9367-C7D633D54A64}">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="1.03986687147978"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="1.71649257552483"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>484267__inspectorj__party-pack-horn-coil-01-long-01.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="754963770"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="484267__inspectorj__party-pack-horn-coil-01-long-01" ID="{C75A2991-47E2-4BC7-9367-C7D633D54A64}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

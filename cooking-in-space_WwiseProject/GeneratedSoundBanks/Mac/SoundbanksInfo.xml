@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="936105827" Type="User" Language="SFX" Hash="{DFAF4287-152F-660A-1B54-562EB23FD564}">
+		<SoundBank Id="936105827" Type="User" Language="SFX" Hash="{B79B5CB1-3A08-8F6D-9A2F-9651B0A78256}">
 			<ShortName>Effects_Soundbank</ShortName>
 			<Path>Effects_Soundbank.bnk</Path>
 			<Media>
@@ -32,6 +32,10 @@
 				<File Id="722837671" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>cooking.wav</ShortName>
 					<CachePath>SFX/cooking_818F3B66.wem</CachePath>
+				</File>
+				<File Id="754963770" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>484267__inspectorj__party-pack-horn-coil-01-long-01.wav</ShortName>
+					<CachePath>SFX/484267__inspectorj__party-pack-horn-coil-01-long-01_33A6A41B.wem</CachePath>
 				</File>
 				<File Id="774919921" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Spaceships enter exit.wav</ShortName>
@@ -66,6 +70,11 @@
 				<Event Id="4057174442" Name="Play_Cooking" DurationType="OneShot" DurationMin="6.9759636" DurationMax="6.9759636">
 					<MediaRefs>
 						<MediaRef Id="722837671"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2956245481" Name="Play_Horn" DurationType="OneShot" DurationMin="1.7164925" DurationMax="1.7164925">
+					<MediaRefs>
+						<MediaRef Id="754963770"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3921993629" Name="Play_Movement" DurationType="OneShot" DurationMin="7.6298184" DurationMax="7.6298184">
@@ -150,5 +159,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{047F50EB-22C1-E20D-C8D9-B9864A61558F}</FileHash>
+	<FileHash>{1FEE2810-F9B7-A153-B4F2-943DC1805CD7}</FileHash>
 </SoundBanksInfo>
