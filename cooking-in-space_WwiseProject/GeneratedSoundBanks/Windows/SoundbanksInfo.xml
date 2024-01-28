@@ -9,10 +9,22 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="936105827" Type="User" Language="SFX" Hash="{54874FB3-CB94-0B7A-47EF-10D64EAAE0F7}">
+		<SoundBank Id="936105827" Type="User" Language="SFX" Hash="{DFAF4287-152F-660A-1B54-562EB23FD564}">
 			<ShortName>Effects_Soundbank</ShortName>
 			<Path>Effects_Soundbank.bnk</Path>
 			<Media>
+				<File Id="97053218" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>588593__gimp_revival__oh-yeah.wav</ShortName>
+					<CachePath>SFX/588593__gimp_revival__oh-yeah_818F3B66.wem</CachePath>
+				</File>
+				<File Id="157878507" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>474151__yukikonichiwa__oh-yeah_cantonese-man.wav</ShortName>
+					<CachePath>SFX/474151__yukikonichiwa__oh-yeah_cantonese-man_818F3B66.wem</CachePath>
+				</File>
+				<File Id="162732789" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>416843__tonsil5__shouting-yeah.wav</ShortName>
+					<CachePath>SFX/416843__tonsil5__shouting-yeah_818F3B66.wem</CachePath>
+				</File>
 				<File Id="430476849" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Throw.wav</ShortName>
 					<CachePath>SFX/Throw_818F3B66.wem</CachePath>
@@ -33,8 +45,24 @@
 					<ShortName>Spacesuit Movement.wav</ShortName>
 					<CachePath>SFX/Spacesuit Movement_818F3B66.wem</CachePath>
 				</File>
+				<File Id="1024751014" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>336997__timkahn__boo-01.wav</ShortName>
+					<CachePath>SFX/336997__timkahn__boo-01_818F3B66.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
+				<Event Id="2964108783" Name="Crowd_Happy" DurationType="OneShot" DurationMin="1.038322" DurationMax="6.072729">
+					<MediaRefs>
+						<MediaRef Id="97053218"/>
+						<MediaRef Id="157878507"/>
+						<MediaRef Id="162732789"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="14625635" Name="Crowd_Mad" DurationType="OneShot" DurationMin="5.5693336" DurationMax="5.5693336">
+					<MediaRefs>
+						<MediaRef Id="1024751014"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="4057174442" Name="Play_Cooking" DurationType="OneShot" DurationMin="6.9759636" DurationMax="6.9759636">
 					<MediaRefs>
 						<MediaRef Id="722837671"/>
@@ -122,5 +150,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{24BC4183-42E3-C839-9FAF-A0BCC34BFABA}</FileHash>
+	<FileHash>{C19C9BAA-C205-76A5-1320-6E2DB4819AB4}</FileHash>
 </SoundBanksInfo>

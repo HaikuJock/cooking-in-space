@@ -9,7 +9,8 @@ public class PlayerConnectorManager : MonoBehaviour
 
     public Connector firstConnector;
     public Connector secondConnector;
-    
+    public Connector thirdConnector;
+    public Connector fourthConnector;
     
     
 
@@ -19,6 +20,10 @@ public class PlayerConnectorManager : MonoBehaviour
             connectorPoint.SetAsConnectedTo(firstConnector);
         if (_currentConnectionNum == 1)
             connectorPoint.SetAsConnectedTo(secondConnector);
+        if (_currentConnectionNum == 2)
+            connectorPoint.SetAsConnectedTo(thirdConnector);
+        if (_currentConnectionNum == 3)
+            connectorPoint.SetAsConnectedTo(fourthConnector);
         _currentConnectionNum++;
     }
 }

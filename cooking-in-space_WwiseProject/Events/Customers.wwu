@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9E87CCA8-13D5-4E26-B81E-0D0DE2C59340}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Customers" ID="{9E87CCA8-13D5-4E26-B81E-0D0DE2C59340}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Crowd_Happy" ID="{CA23532C-5F99-4818-B537-C6F30CFFCBC2}">
+					<ChildrenList>
+						<Action Name="" ID="{4A79AF31-374F-4222-BB58-9874528C3F30}" ShortID="715527765">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Good" ID="{1FB77E30-56A6-45CE-A0AC-78BA28CBF23F}" WorkUnitID="{07509B5C-18FC-4EBB-BDD0-C0909CF715BF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Crowd_Mad" ID="{A09BF80A-915E-491C-B91A-87FC493EA8D5}">
+					<ChildrenList>
+						<Action Name="" ID="{C76B14DE-22CE-45A7-A6DA-053D967D2573}" ShortID="239889183">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bad" ID="{BB02C84D-C0DD-437E-A7AB-4000E3987C92}" WorkUnitID="{07509B5C-18FC-4EBB-BDD0-C0909CF715BF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
