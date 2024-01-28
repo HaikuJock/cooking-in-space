@@ -402,6 +402,7 @@ GameObject:
   - component: {fileID: 8465564867340455259}
   - component: {fileID: 6636793271480879040}
   - component: {fileID: 8635792603808884157}
+  - component: {fileID: 3177520271125226156}
   m_Layer: 8
   m_Name: PlayerCapsule 1
   m_TagString: Player
@@ -641,6 +642,18 @@ MonoBehaviour:
   _myConnector: {fileID: 8202119326149305989}
   playerMat: {fileID: 5089218539053860479}
   ringMat: {fileID: 5711419803322198942}
+--- !u!114 &3177520271125226156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6911207417805849622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 698250b903cfb4aefb807fde1c2cbf27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7559720561510586535
 GameObject:
   m_ObjectHideFlags: 0
