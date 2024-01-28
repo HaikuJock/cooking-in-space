@@ -8545,6 +8545,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0fc7fd770f17c34bbf89004aff4fad3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  alienController: {fileID: 0}
+  alienShowTime: 0.5
 --- !u!95 &1430585647
 Animator:
   serializedVersion: 5
@@ -10448,7 +10450,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   satisfactionDisplay: {fileID: 1556329842}
   maxSatisfaction: 1000
-  timeBetweenSatisfactionLoss: 1
+  timeBetweenSatisfactionLoss: 0.4
 --- !u!1 &1698537626
 GameObject:
   m_ObjectHideFlags: 0
