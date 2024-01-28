@@ -43,6 +43,23 @@ namespace StarterAssets
 		{
 			SprintInput(value.isPressed);
 		}
+
+		public void OnDeviceLost()
+		{
+			Debug.Log("OnDeviceLost");
+		}
+
+		public void OnDeviceRegained()
+		{
+			Debug.Log("OnDeviceRegained");
+		}
+
+		public void OnControlsChanged()
+		{
+			Debug.Log("OnControlsChanged");
+		}
+
+
 #endif
 
 
