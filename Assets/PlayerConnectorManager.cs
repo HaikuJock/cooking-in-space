@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using HPhysic;
@@ -23,6 +24,12 @@ public class PlayerConnectorManager : MonoBehaviour
     public Material ringThree;
     public Material ringFour;
 
+    public GameObject secondCable;
+
+    private void Start()
+    {
+        secondCable.SetActive(false);
+    }
 
     public void NewConnection(Connector connectorPoint, MeshRenderer player, MeshRenderer ring)
     {
@@ -42,6 +49,7 @@ public class PlayerConnectorManager : MonoBehaviour
         }        
         if (_currentConnectionNum == 2)
         {
+            secondCable.SetActive(true);
             connectorPoint.SetAsConnectedTo(thirdConnector);
             player.material = playerThreeMaterial;
             ring.material = ringThree;
