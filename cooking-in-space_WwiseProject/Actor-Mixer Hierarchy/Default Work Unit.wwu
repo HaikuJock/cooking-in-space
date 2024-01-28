@@ -8,7 +8,7 @@
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-8</Value>
+								<Value>-9</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -62,7 +62,7 @@
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-5</Value>
+								<Value>-3</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -130,7 +130,7 @@
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>2</Value>
+								<Value>4</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -159,7 +159,7 @@
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>3</Value>
+								<Value>-3</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -188,7 +188,7 @@
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-5</Value>
+								<Value>-2</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -234,6 +234,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="416843__tonsil5__shouting-yeah" ID="{0DF1342B-91FA-40EB-A897-4AD7DAE81796}" ShortID="917010255">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01232059-0E55-4A60-BFCC-444C712D03F3}"/>
@@ -256,6 +263,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="474151__yukikonichiwa__oh-yeah_cantonese-man" ID="{005058E8-26CA-46CD-BD4D-C0A7A6283263}" ShortID="688145263">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01232059-0E55-4A60-BFCC-444C712D03F3}"/>
@@ -278,6 +292,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="588593__gimp_revival__oh-yeah" ID="{D01E6A6E-3FDB-4143-9E2E-95DDAA9E17BF}" ShortID="924677467">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01232059-0E55-4A60-BFCC-444C712D03F3}"/>
@@ -312,6 +333,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="336997__timkahn__boo-01" ID="{D1BF5281-0DB9-463A-83A4-78B018DCD21B}" ShortID="777000734">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01232059-0E55-4A60-BFCC-444C712D03F3}"/>
@@ -348,6 +376,13 @@
 					</GroupingInfo>
 				</SwitchContainer>
 				<Sound Name="484267__inspectorj__party-pack-horn-coil-01-long-01" ID="{C66FE155-7A59-4A4C-A9FC-9C6C6ADA971C}" ShortID="466814476">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{01232059-0E55-4A60-BFCC-444C712D03F3}"/>

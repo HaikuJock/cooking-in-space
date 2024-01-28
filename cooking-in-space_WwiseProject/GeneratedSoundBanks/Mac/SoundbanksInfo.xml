@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="936105827" Type="User" Language="SFX" Hash="{B79B5CB1-3A08-8F6D-9A2F-9651B0A78256}">
+		<SoundBank Id="936105827" Type="User" Language="SFX" Hash="{6833F8C6-F34E-A8DF-3854-B8AFE937FE33}">
 			<ShortName>Effects_Soundbank</ShortName>
 			<Path>Effects_Soundbank.bnk</Path>
 			<Media>
@@ -35,7 +35,7 @@
 				</File>
 				<File Id="754963770" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>484267__inspectorj__party-pack-horn-coil-01-long-01.wav</ShortName>
-					<CachePath>SFX/484267__inspectorj__party-pack-horn-coil-01-long-01_33A6A41B.wem</CachePath>
+					<CachePath>SFX/484267__inspectorj__party-pack-horn-coil-01-long-01_0DA33AFB.wem</CachePath>
 				</File>
 				<File Id="774919921" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Spaceships enter exit.wav</ShortName>
@@ -159,5 +159,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{1FEE2810-F9B7-A153-B4F2-943DC1805CD7}</FileHash>
+	<FileHash>{EC1E5281-98C0-0944-BB32-8BC7DE4EC48D}</FileHash>
 </SoundBanksInfo>
