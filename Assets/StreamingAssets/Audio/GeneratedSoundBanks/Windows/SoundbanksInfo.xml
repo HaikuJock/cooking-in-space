@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="936105827" Type="User" Language="SFX" Hash="{CC26C025-8EDB-5495-A89F-C6A7DD38D117}">
+			<ShortName>Effects_Soundbank</ShortName>
+			<Path>Effects_Soundbank.bnk</Path>
+			<Media>
+				<File Id="97053218" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>588593__gimp_revival__oh-yeah.wav</ShortName>
+					<CachePath>SFX/588593__gimp_revival__oh-yeah_818F3B66.wem</CachePath>
+				</File>
+				<File Id="157878507" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>474151__yukikonichiwa__oh-yeah_cantonese-man.wav</ShortName>
+					<CachePath>SFX/474151__yukikonichiwa__oh-yeah_cantonese-man_818F3B66.wem</CachePath>
+				</File>
+				<File Id="162732789" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>416843__tonsil5__shouting-yeah.wav</ShortName>
+					<CachePath>SFX/416843__tonsil5__shouting-yeah_818F3B66.wem</CachePath>
+				</File>
+				<File Id="430476849" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Throw.wav</ShortName>
+					<CachePath>SFX/Throw_818F3B66.wem</CachePath>
+				</File>
+				<File Id="722837671" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>cooking.wav</ShortName>
+					<CachePath>SFX/cooking_818F3B66.wem</CachePath>
+				</File>
+				<File Id="754963770" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>484267__inspectorj__party-pack-horn-coil-01-long-01.wav</ShortName>
+					<CachePath>SFX/484267__inspectorj__party-pack-horn-coil-01-long-01_0DA33AFB.wem</CachePath>
+				</File>
+				<File Id="774919921" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Spaceships enter exit.wav</ShortName>
+					<CachePath>SFX/Spaceships enter exit_818F3B66.wem</CachePath>
+				</File>
+				<File Id="777058764" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ufo orbit.wav</ShortName>
+					<CachePath>SFX/ufo orbit_818F3B66.wem</CachePath>
+				</File>
+				<File Id="952816046" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Spacesuit Movement.wav</ShortName>
+					<CachePath>SFX/Spacesuit Movement_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1024751014" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>336997__timkahn__boo-01.wav</ShortName>
+					<CachePath>SFX/336997__timkahn__boo-01_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2964108783" Name="Crowd_Happy" DurationType="OneShot" DurationMin="1.038322" DurationMax="6.072729">
+					<MediaRefs>
+						<MediaRef Id="97053218"/>
+						<MediaRef Id="157878507"/>
+						<MediaRef Id="162732789"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="14625635" Name="Crowd_Mad" DurationType="OneShot" DurationMin="5.5693336" DurationMax="5.5693336">
+					<MediaRefs>
+						<MediaRef Id="1024751014"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4057174442" Name="Play_Cooking" DurationType="OneShot" DurationMin="6.9759636" DurationMax="6.9759636">
+					<MediaRefs>
+						<MediaRef Id="722837671"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2956245481" Name="Play_Horn" DurationType="OneShot" DurationMin="1.7164925" DurationMax="1.7164925">
+					<MediaRefs>
+						<MediaRef Id="754963770"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3921993629" Name="Play_Movement" DurationType="OneShot" DurationMin="7.6298184" DurationMax="7.6298184">
+					<MediaRefs>
+						<MediaRef Id="952816046"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3855889522" Name="Play_Orbit" DurationType="OneShot" DurationMin="40.187504" DurationMax="40.187504">
+					<MediaRefs>
+						<MediaRef Id="777058764"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3461846542" Name="Play_Spaceship" DurationType="OneShot" DurationMin="4.480771" DurationMax="4.480771">
+					<MediaRefs>
+						<MediaRef Id="774919921"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1977644338" Name="Play_Throw" DurationType="OneShot" DurationMin="0.7596145" DurationMax="0.7596145">
+					<MediaRefs>
+						<MediaRef Id="430476849"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1051688448" Name="Stop_Orbit" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="2961497387" Name="Orbit"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{50BCD10D-6004-4AE9-44D2-640D0C0CF870}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="2961497387" Name="Orbit"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="3991942870" Name="Music">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="3991942870" Name="Music"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="3589812408" Type="User" Language="SFX" Hash="{33370EF4-A98F-1CC2-3780-254359B91C40}">
+			<ShortName>Music_Soundbank</ShortName>
+			<Path>Music_Soundbank.bnk</Path>
+			<Media>
+				<File Id="507454942" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Draft 2 song.wav</ShortName>
+					<CachePath>SFX/Draft 2 song_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2932040671" Name="Play_Music" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3991942870" Id="3991942870"/>
+							<MediaRefs>
+								<MediaRef Id="507454942"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2837384057" Name="Stop_Music" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+			<StateGroups>
+				<StateGroup Id="3991942870" Name="Music">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="3991942870" Name="Music"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{0C323993-7A62-5A3B-906F-AD13B9083EF9}</FileHash>
+</SoundBanksInfo>

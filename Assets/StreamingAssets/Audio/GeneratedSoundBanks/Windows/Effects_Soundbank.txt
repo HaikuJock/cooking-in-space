@@ -1,0 +1,26 @@
+Event	ID	Name			Wwise Object Path	Notes
+	14625635	Crowd_Mad			\Customers\Crowd_Mad	
+	1051688448	Stop_Orbit			\Default Work Unit\Stop_Orbit	
+	1977644338	Play_Throw			\Default Work Unit\Play_Throw	
+	2956245481	Play_Horn			\Win\Play_Horn	
+	2964108783	Crowd_Happy			\Customers\Crowd_Happy	
+	3461846542	Play_Spaceship			\Default Work Unit\Play_Spaceship	
+	3855889522	Play_Orbit			\Default Work Unit\Play_Orbit	
+	3921993629	Play_Movement			\Character\Play_Movement	
+	4057174442	Play_Cooking			\Default Work Unit\Play_Cooking	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2961497387	Orbit			\Default Work Unit\Orbit	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	97053218	588593__gimp_revival__oh-yeah	E:\game jam\cooking-in-space\cooking-in-space_WwiseProject\.cache\Windows\SFX\588593__gimp_revival__oh-yeah_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Customers\Good\588593__gimp_revival__oh-yeah		1166060
+	157878507	474151__yukikonichiwa__oh-yeah_cantonese-man	E:\game jam\cooking-in-space\cooking-in-space_WwiseProject\.cache\Windows\SFX\474151__yukikonichiwa__oh-yeah_cantonese-man_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Customers\Good\474151__yukikonichiwa__oh-yeah_cantonese-man		712544
+	162732789	416843__tonsil5__shouting-yeah	E:\game jam\cooking-in-space\cooking-in-space_WwiseProject\.cache\Windows\SFX\416843__tonsil5__shouting-yeah_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Customers\Good\416843__tonsil5__shouting-yeah		91676
+	430476849	Throw	E:\game jam\cooking-in-space\cooking-in-space_WwiseProject\.cache\Windows\SFX\Throw_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Throw		134140
+	722837671	cooking	E:\game jam\cooking-in-space\cooking-in-space_WwiseProject\.cache\Windows\SFX\cooking_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\cooking		1230704
+	754963770	484267__inspectorj__party-pack-horn-coil-01-long-01	E:\game jam\cooking-in-space\cooking-in-space_WwiseProject\.cache\Windows\SFX\484267__inspectorj__party-pack-horn-coil-01-long-01_0DA33AFB.wem		\Actor-Mixer Hierarchy\Default Work Unit\484267__inspectorj__party-pack-horn-coil-01-long-01		302884
+	774919921	Spaceships enter exit	E:\game jam\cooking-in-space\cooking-in-space_WwiseProject\.cache\Windows\SFX\Spaceships enter exit_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spaceships enter exit		790552
+	777058764	ufo orbit	E:\game jam\cooking-in-space\cooking-in-space_WwiseProject\.cache\Windows\SFX\ufo orbit_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\ufo orbit		7089220
+	952816046	Spacesuit Movement	E:\game jam\cooking-in-space\cooking-in-space_WwiseProject\.cache\Windows\SFX\Spacesuit Movement_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spacesuit Movement		1346044
+	1024751014	336997__timkahn__boo-01	E:\game jam\cooking-in-space\cooking-in-space_WwiseProject\.cache\Windows\SFX\336997__timkahn__boo-01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Customers\Bad\336997__timkahn__boo-01		534752
+
