@@ -24,10 +24,12 @@ public class PlayerConnectorManager : MonoBehaviour
     public Material ringThree;
     public Material ringFour;
 
+    public GameObject firstCable;
     public GameObject secondCable;
 
     private void Start()
     {
+        firstCable.SetActive(false);
         secondCable.SetActive(false);
     }
 
@@ -36,6 +38,7 @@ public class PlayerConnectorManager : MonoBehaviour
 
         if (_currentConnectionNum == 0)
         {
+            firstCable.SetActive(true);
             connectorPoint.SetAsConnectedTo(firstConnector);
             player.material = playerOneMaterial;
             ring.material = ringOne;
