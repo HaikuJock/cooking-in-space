@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{A93E89E3-A313-4399-8F50-4A6F863BA101}" SchemaVersion="119">
 	<MixingSessions>
-		<WorkUnit Name="Default Work Unit" ID="{A93E89E3-A313-4399-8F50-4A6F863BA101}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{A93E89E3-A313-4399-8F50-4A6F863BA101}" PersistMode="Standalone">
+			<ChildrenList>
+				<MixingSession Name="Mixing Session" ID="{DE7F8EFD-DF82-4299-BE09-200948D4F5FF}">
+					<ObjectList>
+						<ObjectRef Name="588593__gimp_revival__oh-yeah" ID="{D01E6A6E-3FDB-4143-9E2E-95DDAA9E17BF}" WorkUnitID="{07509B5C-18FC-4EBB-BDD0-C0909CF715BF}"/>
+						<ObjectRef Name="474151__yukikonichiwa__oh-yeah_cantonese-man" ID="{005058E8-26CA-46CD-BD4D-C0A7A6283263}" WorkUnitID="{07509B5C-18FC-4EBB-BDD0-C0909CF715BF}"/>
+						<ObjectRef Name="416843__tonsil5__shouting-yeah" ID="{0DF1342B-91FA-40EB-A897-4AD7DAE81796}" WorkUnitID="{07509B5C-18FC-4EBB-BDD0-C0909CF715BF}"/>
+						<ObjectRef Name="336997__timkahn__boo-01" ID="{D1BF5281-0DB9-463A-83A4-78B018DCD21B}" WorkUnitID="{07509B5C-18FC-4EBB-BDD0-C0909CF715BF}"/>
+						<ObjectRef Name="484267__inspectorj__party-pack-horn-coil-01-long-01" ID="{C66FE155-7A59-4A4C-A9FC-9C6C6ADA971C}" WorkUnitID="{07509B5C-18FC-4EBB-BDD0-C0909CF715BF}"/>
+						<ObjectRef Name="cooking" ID="{5C435D9A-8EB9-4E4A-BB98-1A1EC9290A92}" WorkUnitID="{07509B5C-18FC-4EBB-BDD0-C0909CF715BF}"/>
+						<ObjectRef Name="Draft 2 song" ID="{797C8B62-E118-4DB9-A3F2-9532E0580CC3}" WorkUnitID="{07509B5C-18FC-4EBB-BDD0-C0909CF715BF}"/>
+						<ObjectRef Name="ufo orbit" ID="{889C49BA-ADA4-4E4E-8515-5BD122B07368}" WorkUnitID="{07509B5C-18FC-4EBB-BDD0-C0909CF715BF}"/>
+						<ObjectRef Name="Spaceships enter exit" ID="{D19B8FBB-C60B-4837-BAAF-44D32F63E68E}" WorkUnitID="{07509B5C-18FC-4EBB-BDD0-C0909CF715BF}"/>
+						<ObjectRef Name="Spacesuit Movement" ID="{2FD3B530-E2CD-4FC5-9762-461D84FF2D84}" WorkUnitID="{07509B5C-18FC-4EBB-BDD0-C0909CF715BF}"/>
+					</ObjectList>
+				</MixingSession>
+			</ChildrenList>
+		</WorkUnit>
 	</MixingSessions>
 </WwiseDocument>
