@@ -9,7 +9,7 @@ public class PlayerMove : MonoBehaviour
 {
     [Header("Player")]
     [Tooltip("Move speed of the character in m/s")]
-    public float MoveSpeed = 2.0f;
+    public float MoveSpeed = 75000f;
 
     [Tooltip("How fast the character turns to face movement direction")]
     [Range(0.0f, 0.3f)]
@@ -132,6 +132,9 @@ public class PlayerMove : MonoBehaviour
         
         Vector3 targetDirection = Quaternion.Euler(0.0f, _targetRotation, 0.0f) * Vector3.forward;
         
+        var force = targetDirection.normalized * (_speed * Time.deltaTime);
+
+        _rigidBody.AddForce(force);
         // move the player
         // _controller.Move(targetDirection.normalized * (_speed * Time.deltaTime) +
         //                     new Vector3(0.0f, _verticalVelocity, 0.0f) * Time.deltaTime);
