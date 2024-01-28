@@ -2,12 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class SceneChanger : MonoBehaviour
 {
+    // buttons
+    [SerializeField] Button mainMenuButton, startGameButton, exitGameButton;
+
+    // start function
+    public void Start()
+    {
+        mainMenuButton.onClick.AddListener(MainMenu);
+        startGameButton.onClick.AddListener(LevelOne);
+        exitGameButton.onClick.AddListener(Quit);
+    }
 
 
-    // Update is called once per frame
+    // other functions
     public void MainMenu()
     {
         SceneManager.LoadScene(0);
