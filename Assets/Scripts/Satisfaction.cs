@@ -29,6 +29,11 @@ public class Satisfaction : MonoBehaviour
         {
             SceneManager.LoadScene("GameClear");
         }
+
+        if (Score <= 0)
+        {
+            SceneManager.LoadScene("GameFail");
+        }
     }
 
     private IEnumerator ReduceSatisfaction()
